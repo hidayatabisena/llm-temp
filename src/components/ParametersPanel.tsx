@@ -58,7 +58,7 @@ const ParametersPanel: React.FC<ParametersPanelProps> = ({
           min={1}
           max={10}
           step={1}
-          tooltip="Ngebatasin distribusi probabilitas kumulatif ke **top K** token aja."
+          tooltip="Ngebatasin distribusi probabilitas kumulatif ke top K token aja."
           onChange={onTopKChange}
         />
 

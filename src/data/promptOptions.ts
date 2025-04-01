@@ -9,7 +9,7 @@ export const promptOptions: PromptOption[] = [
       { token: "violet", probability: 0.1374 },
       { token: "vio", probability: 0.13 },
       { token: "not", probability: 0.13 },
-      { token: "Blue", probability: 0.1253 },
+      { token: "red", probability: 0.1253 },
       { token: "green", probability: 0 },
       { token: "gray", probability: 0 },
       { token: "grey", probability: 0 },
