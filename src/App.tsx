@@ -4,6 +4,7 @@ import { promptOptions } from './data/promptOptions';
 import ParametersPanel from './components/ParametersPanel';
 import TokenVisualization from './components/TokenVisualization';
 import InfoCard from './components/InfoCard';
+import MaiaPromo from './components/MaiaPromo';
 
 function App() {
   const [temperature, setTemperature] = useState(0.68);
@@ -61,6 +62,9 @@ function App() {
 
         <InfoCard />
       </div>
+      
+      {/* MAIA Promotional Component */}
+      <MaiaPromo />
     </div>
   );
 }
